@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  /* background-color: rgb(155, 155, 211); */
+  height: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(52, 48, 99);
+  color:white;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.box{
+  margin-top:50px ;
+  margin: auto;
+  align: center;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  background-color: rgb(129, 149, 161);
+}
+.container{
+  border: 1px solid black;
+  margin-top: 20px;
+  background-color:rgb(163, 160, 201);
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(160, 166, 168);
+  padding: 10px;
+}
+input:hover{
+  background-color:rgb(253, 250, 250);
+}
+/* .main{
+  background-image: url("./background.jpg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+img {
+  opacity: 0.8;
+}
